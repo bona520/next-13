@@ -1,4 +1,5 @@
 import Layouts from "@/layouts/Layouts";
+// import Template from "@/layouts/Template";
 
 export default function Page() {
     return (
@@ -12,8 +13,9 @@ export default function Page() {
                 </div>
             </div>
             <div>
-                
+
             </div>
+            {/* <Template key={routeParam}>{children}</Template> */}
         </Layouts>
     )
 }
